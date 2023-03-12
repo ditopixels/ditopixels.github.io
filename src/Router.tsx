@@ -1,6 +1,6 @@
 import { FC } from "react";
 import { 
-    BrowserRouter,
+    HashRouter,
     Routes,
     Route
 } from "react-router-dom";
@@ -11,12 +11,12 @@ import Contact from "./pages/Contact";
 
 const Router:FC = () => {
     return (
-        <BrowserRouter>
+        <HashRouter>
             <Routes>
                 <Route path="/" element={<Home/>} />
                 <Route path="/contact" element={<Contact/>} />
             </Routes>
-        </BrowserRouter>
+        </HashRouter>
     )
 }
 

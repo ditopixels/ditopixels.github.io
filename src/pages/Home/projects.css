@@ -1,0 +1,10 @@
+.featured-projects-section .card img{
+    height: 240px !important;
+    object-fit: cover;
+}   
+
+@media screen and (min-width: 770px) {
+    .featured-projects-section .card img{
+        height: 180px !important;
+    }    
+}

@@ -11,9 +11,6 @@ const Navbar = () => {
             <Link className="nav-link d-flex flex-column" to="/projects"><span className="icon-holder"><i className="fa-solid fa-briefcase"></i></span><span className="nav-text">Projects</span></Link>
         </li>
         <li className="nav-item">
-            <Link className="nav-link d-flex flex-column" to="/blog-home"><span className="icon-holder"><i className="fa-solid fa-pen-fancy"></i></span><span className="nav-text">Blog</span></Link>
-        </li>
-        <li className="nav-item">
             <Link className="nav-link d-flex flex-column" to="/resume"><span className="icon-holder"><i className="fa-solid fa-file-lines"></i></span><span className="nav-text">Resume</span></Link>
         </li>
         <li className="nav-item">

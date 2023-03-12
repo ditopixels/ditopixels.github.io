@@ -35,8 +35,6 @@
     <!-- FontAwesome JS -->
     <script defer src="assets/fontawesome/js/all.js"></script>
 
-    <!-- Plugin CSS -->
-    <link rel="stylesheet" href="assets/plugins/tiny-slider/tiny-slider.css">
 
     <!-- Theme CSS -->  
 	  <link id="theme-style" rel="stylesheet" href="assets/css/theme-1.css">
@@ -48,7 +46,7 @@
           <nav class="navbar">
               <div aria-labelledby="offcanvasNavbarLabel" class="offcanvas offcanvas-start show d-flex" id="offcanvasNavbar" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1">
                   <div class="offcanvas-body d-flex align-items-center ">
-                      <div id="navbar"></div>
+                      <div id="navbar" style="width: 100%;"></div>
                   </div>
               </div>
           
@@ -56,56 +54,48 @@
       </div> 
       <div class="main-content-wrapper">
           <div class="container-fluid">
-              <div class="top-bar text-center position-relative">
-                  <div class="top-bar-inner">
-                      
-                      <a class="menu-toggler" data-bs-toggle="offcanvas" href="#offcanvasNavbar" role="button" aria-controls="offcanvasNavbar">
-                          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
-                          <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
-                          </svg>
-                      </a>
-                      
-                      <div class="mode-toggle text-center">
-                          
-                          <input class="toggle" id="darkmode" type="checkbox"/>
-                          <label class="toggle-btn mx-auto mb-0" for="darkmode">
-                              <span class="day-icon toggle-icon"> <i class="bi bi-sun-fill"></i></span>
-                              <span class="night-icon toggle-icon"><i class="bi bi-moon-fill"></i></span>
-                              
-                          </label>
-                          
-                      </div>
-                      
-                      <a class="btn btn-primary top-bar-cta" href="contact.html">Hire Me</a>
-              
-                      <ul class="social-list list-inline mx-auto d-none d-lg-block">
-                          <li class="list-inline-item me-0 me-md-1 me-lg-2"><a href="#"><i class="fa-brands fa-twitter fa-fw"></i></a></li>
-                          <li class="list-inline-item me-0 me-md-1 me-lg-2"><a href="#"><i class="fa-brands fa-github fa-fw"></i></a></li>
-                          
-                          <li class="list-inline-item me-0 me-md-1 me-lg-2"><a href="#"><i class="fa-brands fa-linkedin-in fa-fw"></i></a></li>
-                          
-                          <li class="list-inline-item me-0 me-md-1 me-lg-2"><a href="#"><i class="fa-brands fa-stack-overflow fa-fw"></i></a></li>
-                          <li class="list-inline-item me-0 me-md-1 me-lg-2"><a href="#"><i class="fa-brands fa-medium fa-fw"></i></a></li>
-                      </ul>
-                      
-                  </div>  
-                  <div id="root"></div>
-              </div>
+            <div class="top-bar text-center position-relative">
+                <div class="top-bar-inner">
+                    
+                    <a class="menu-toggler" data-bs-toggle="offcanvas" href="#offcanvasNavbar" role="button" aria-controls="offcanvasNavbar">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                        </svg>
+                    </a>
+                    
+                    <div class="mode-toggle text-center">
+                        
+                        <input class="toggle" id="darkmode" type="checkbox"/>
+                        <label class="toggle-btn mx-auto mb-0" for="darkmode">
+                            <span class="day-icon toggle-icon"> <i class="bi bi-sun-fill"></i></span>
+                            <span class="night-icon toggle-icon"><i class="bi bi-moon-fill"></i></span>
+                            
+                        </label>
+                        
+                    </div>
+                    
+                    <div id="btn-contact"></div>
+            
+                    <ul class="social-list list-inline mx-auto d-none d-lg-block">
+                        <li class="list-inline-item me-0 me-md-1 me-lg-2"><a target="_blank" href="https://github.com/ditopixels"><i class="fa-brands fa-github fa-fw"></i></a></li>
+                        <li class="list-inline-item me-0 me-md-1 me-lg-2"><a target="_blank" href="https://www.linkedin.com/in/juan-diego-durango-morales/"><i class="fa-brands fa-linkedin-in fa-fw"></i></a></li>
+                        <li class="list-inline-item me-0 me-md-1 me-lg-2"><a target="_blank" download="Juan Diego Morales - Curriculum.pdf" href="/curriculum.pdf"><i class="fa-solid fa-file fa-fw"></i></a></li>
+                    </ul>
+                    
+                </div>  
+            </div>
+            <div id="root"></div>
           </div>
       </div>
     </div>
     <footer class="footer text-center py-5">
-        <small class="copyright">Template Copyright &copy; <a href="https://themes.3rdwavemedia.com/" target="_blank">3rd Wave Media</a></small>
+        <small class="copyright">Juan Diego Durango Copyright &copy; <a href="https://juandiego.tech/" target="_blank">All rights reserved.</a></small>
     </footer>
     
     <!-- Javascript -->
     <script type="module" src="/src/main.tsx"></script>
     <script src="assets/plugins/popper.min.js"></script> 
     <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
-    
-    <!-- Page Specific JS -->
-    <script src="assets/plugins/tiny-slider/min/tiny-slider.js"></script> 
-    <script src="assets/js/tinyslider-custom.js"></script> 
     
     <!-- Dark/Light Mode Toggle  -->
     <script src="assets/plugins/js-cookie.min.js"></script>

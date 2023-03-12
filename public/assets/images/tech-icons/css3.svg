@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="176px" height="199px" viewBox="0 0 176 199" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>css3</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="css3">
+            <polygon id="Path" fill="#0A71B9" points="0 0 175.5 0 159.833333 179.333333 87.6666667 199 15.6666667 179.333333"></polygon>
+            <polygon id="Path" fill="#28A7DE" points="87.6666667 14.8333333 160.833333 14.8333333 146.833333 167.666667 87.6666667 184.666667"></polygon>
+            <polygon id="Path" fill="#EBEBEB" points="133 37 32.8333333 37 35 58.8333333 118.666667 58.8333333 116 80.8333333 37 80.8333333 39 102.333333 114.833333 102.333333 112 132 87.3333333 138 63.1666667 132 61.8333333 114.333333 40.1666667 114.333333 43.5 149.833333 88.3333333 162 133 149.833333 143.5 37"></polygon>
+            <g id="Group" transform="translate(86.666667, 36.666667)">
+                <polygon id="Path" points="29.3333333 44.1666667 32 22.1666667 1.5 22.1666667 1.5 44.1666667"></polygon>
+                <polygon id="Path" points="25.3333333 95.3333333 28.1666667 65.6666667 1.5 65.6666667 1.5 101"></polygon>
+                <polygon id="Path" fill="#FFFFFF" points="46.1666667 0.333333333 1 0.333333333 1 22.1666667 31.8333333 22.1666667 29.1666667 44.1666667 1 44.1666667 1 65.6666667 28 65.6666667 25.1666667 95.3333333 1 101 1 125.333333 1.33333333 125.333333 46.1666667 113.166667 56.8333333 0.333333333"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

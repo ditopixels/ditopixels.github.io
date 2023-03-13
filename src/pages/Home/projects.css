@@ -1,10 +1,32 @@
 .featured-projects-section .card img{
     height: 240px !important;
     object-fit: cover;
+    object-position: top;
 }   
+
+.skill-blocks .item-icon-holder{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skill-blocks .item-title{
+    text-align: center;
+}
 
 @media screen and (min-width: 770px) {
     .featured-projects-section .card img{
         height: 180px !important;
+    }
+    .featured-project-list .card{
+        height: 100%;
+    }
+    
+    .featured-project-list .card .card-body{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .featured-project-list .card .card-body>div{
+        margin-top: auto;
     }    
 }

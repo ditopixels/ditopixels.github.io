@@ -10,12 +10,12 @@ const Projects = () => {
 
                     <div className="col-12 col-md-6 col-lg-4">
                         <div className="card">
-                            <img src="assets/images/projects/1.png" className="card-img-top" alt="image"/>
+                            <img src="assets/images/projects/1.webp" className="card-img-top" alt="image"/>
                             <div className="card-body px-0">
                                 <h5 className="card-title"><a href="case-study.html">Bata Perú</a></h5>
-                                <p className="card-text mb-1">Es una empresa líder en el diseño, fabricación y distribución de calzado y accesorios de calidad para toda la familia.</p>
+                                <p className="card-text mb-1">It is a leading company in the design, manufacture, and distribution of quality footwear and accessories for the whole family.</p>
                                 <div>
-                                    <Link className="card-link more-link" to="projects#bata" target="_blank">View more <span className="link-arrow"><i className="bi bi-arrow-right"></i></span></Link>
+                                    <Link className="card-link more-link" to="projects" target="_blank">View more <span className="link-arrow"><i className="bi bi-arrow-right"></i></span></Link>
                                 </div>
                             </div>
                         </div>
@@ -23,12 +23,12 @@ const Projects = () => {
 
                     <div className="col-12 col-md-6 col-lg-4">
                         <div className="card">
-                            <img src="assets/images/projects/project-thumb-6.png" className="card-img-top" alt="image"/>
+                            <img src="assets/images/projects/2.webp" className="card-img-top" alt="image"/>
                             <div className="card-body px-0">
-                                <h5 className="card-title"><a href="case-study.html">Browser Extension</a></h5>
-                                <p className="card-text mb-1">Project summary goes here. Cras vehicula felis sed eros lacinia rhoncus.</p>
+                                <h5 className="card-title"><a href="case-study.html">Samsung</a></h5>
+                                <p className="card-text mb-1">It is a leading company in technological innovation, offering high-quality electronic products such as smartphones, laptops and tablets to meet the needs of consumers.</p>
                                 <div>
-                                    <a className="card-link more-link" href="case-study.html">View more <span className="link-arrow"><i className="bi bi-arrow-right"></i></span></a>
+                                    <Link className="card-link more-link" to="projects" target="_blank">View more <span className="link-arrow"><i className="bi bi-arrow-right"></i></span></Link>
                                 </div>
                             </div>
                         </div>
@@ -36,12 +36,13 @@ const Projects = () => {
 
                     <div className="col-12 col-md-6 col-lg-4">
                         <div className="card">
-                            <img src="assets/images/projects/project-thumb-4.png" className="card-img-top" alt="image"/>
+                            <img src="assets/images/projects/3.webp" className="card-img-top" alt="image"/>
                             <div className="card-body px-0">
-                                <h5 className="card-title"><a href="case-study.html">Data Analytics App</a></h5>
-                                <p className="card-text mb-1">Project summary goes here. Maecenas eget finibus risus. Etiam volutpat elit pellentesque felis dignissim, tempor maximus est commodo.</p>
-                                <div><a className="card-link more-link" href="case-study.html">View more <span className="link-arrow"><i className="bi bi-arrow-right"></i></span></a></div>
-
+                                <h5 className="card-title"><a href="case-study.html">Mercury</a></h5>
+                                <p className="card-text mb-1">Grupo Mercury, the leading importer of the most comprehensive portfolio of lighting, electricals, SmartHome and hardware. They are leading the lighting industry.</p>
+                                <div>
+                                    <Link className="card-link more-link" to="projects" target="_blank">View more <span className="link-arrow"><i className="bi bi-arrow-right"></i></span></Link>
+                                </div>
                             </div>
                         </div>
                     </div>

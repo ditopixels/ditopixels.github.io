@@ -10,7 +10,7 @@ const Resume = () => {
                     <div className="resume-contact mt-4">
                         <ul className="resume-contact-list list-unstyled list-inline mb-0 justify-content-between">
                             <li className="list-inline-item me-md-3 me-lg-5">
-                                <a href="tel:+573246215603">
+                                <a href="tel:573246215603">
                                     <i className="resume-contact-icon bi bi-telephone-inbound me-2"></i> +57 324 6215603
                                 </a>
                             </li>

@@ -1,17 +1,18 @@
-import { FC } from "react";
+import { FC, lazy } from "react";
 import { 
     HashRouter,
     Routes,
     Route
 } from "react-router-dom";
 
-import Home from "./pages/Home";
-import Contact from "./pages/Contact";
 import Navbar from "./components/Navbar";
 import ContactButton from "./components/ContactButton";
-import Resume from "./pages/Resume";
-import Projects from "./pages/Projects";
+import Loadable from "./components/Loadeable/Loadable";
 
+const Home = Loadable(lazy(() => import('./pages/Home')));
+const Projects = Loadable(lazy(() => import('./pages/Projects')));
+const Resume = Loadable(lazy(() => import('./pages/Resume')));
+const Contact = Loadable(lazy(() => import('./pages/Contact')));
 
 const Router:FC = () => {
     return (

@@ -30,7 +30,7 @@ const Contact = () => {
               <li className="list-inline-item">
                 <span className="badge btns-contact">
                   <a className="btn btn-secondary top-bar-cta" href="tel:573246215603">Call me</a>
-                  <a className="btn btn-secondary top-bar-cta" href="malto:juandiego90123@gmail.com">Email</a>
+                  <a className="btn btn-secondary top-bar-cta" href="mailto:juandiego90123@gmail.com">Email</a>
                   <a className="btn btn-secondary top-bar-cta" href="https://api.whatsapp.com/send?phone=573246215603" target="_blank">Whatsapp</a>
                 </span>
               </li>                       

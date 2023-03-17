@@ -35,7 +35,7 @@ const PROJECTS = [
     {
         name: "Tienda de mascotas",
         description: "<ul><li>Development of search section with customized parameters</li><li>Development of a manageable page with graphs and analytics of orders</li><li>Integration of a user's purchase flow with message center (mails)</li><li>Web support and enhancements</li><li>Development of content management system for seller based components</li><li>Development of a salechannel system for the store that connects to a variety of developments.</li></ul>",
-        link: "tiendademascotas.com.ar"
+        link: "https://tiendademascotas.com.ar"
     },
     {
         name: "Filtering method",
@@ -104,7 +104,7 @@ const Projects = () => {
                                 <img className="project-thumb rounded-2 mb-3 mb-lg-0 rounded mx-auto" src={`assets/images/projects/${i+1}.webp`} alt={name}/>
                             </div>
                             <div className="col-12 col-lg-7 col-xl-8">
-                                <h3 className="title"><a href="case-study.html">{name}</a></h3>
+                                <h3 className="title">{name}</h3>
                                 <div className="intro mb-3" dangerouslySetInnerHTML={{__html:description}}/>  
                                 {link && <a className="more-link" href={link} target="_blank">Visit the website <span className="link-arrow"><i className="bi bi-arrow-right"></i></span></a>}
                             </div>

@@ -12,7 +12,7 @@ const Projects = () => {
                         <div className="card">
                             <img src="assets/images/projects/1.webp" className="card-img-top" alt="image"/>
                             <div className="card-body px-0">
-                                <h5 className="card-title"><a href="case-study.html">Bata Perú</a></h5>
+                                <h4 className="card-title"><a href="case-study.html">Bata Perú</a></h4>
                                 <p className="card-text mb-1">It is a leading company in the design, manufacture, and distribution of quality footwear and accessories for the whole family.</p>
                                 <div>
                                     <Link className="card-link more-link" to="projects" target="_blank">View more <span className="link-arrow"><i className="bi bi-arrow-right"></i></span></Link>

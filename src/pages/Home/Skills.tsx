@@ -14,18 +14,18 @@ const Skills = () => {
                     <div className="icon-item col-4 col-md-3 col-lg-2 mb-3 mb-lg-5"><img className="rounded" src="assets/images/tech-icons/typescript.svg" alt="Typescript" width="56px" height="56px"/></div>
                     <div className="icon-item col-4 col-md-3 col-lg-2 mb-3 mb-lg-5"><img className="rounded" src="assets/images/tech-icons/react.svg" alt="React" width="56px" height="56px"/></div>
                     <div className="icon-item col-4 col-md-3 col-lg-2 mb-3 mb-lg-5"><img className="rounded" src="assets/images/tech-icons/angular.svg" alt="Angular" width="56px" height="56px"/></div>
-                    <div className="icon-item col-4 col-md-3 col-lg-2 mb-3 mb-lg-5"><img className="rounded" src="assets/images/tech-icons/scss.png" alt="Java" width="56px" height="56px"/></div>
+                    <div className="icon-item col-4 col-md-3 col-lg-2 mb-3 mb-lg-5"><img className="rounded" src="assets/images/tech-icons/scss.webp" alt="Scss" width="56px" height="56px"/></div>
                     <div className="icon-item col-4 col-md-3 col-lg-2 mb-3 mb-lg-5"><img className="rounded" src="assets/images/tech-icons/bootstrap5.svg" alt="Bootstrap" width="56px" height="56px"/></div>
 
-                    <div className="icon-item col-4 col-md-3 col-lg-2 mb-3 mb-lg-5"><img className="rounded" src="assets/images/tech-icons/tailwind.png" alt="Bootstrap" width="56px" height="56px"/></div>
+                    <div className="icon-item col-4 col-md-3 col-lg-2 mb-3 mb-lg-5"><img className="rounded" src="assets/images/tech-icons/tailwind.webp" alt="Tailwind" width="56px" height="56px"/></div>
                     <div className="clearfix"></div>
-                    <div className="icon-item col-4 col-md-3 col-lg-2 mb-3 mb-lg-5"><img className="rounded" src="assets/images/tech-icons/java.jpg" alt="Java" width="56px" height="56px"/></div>
-                    <div className="icon-item col-4 col-md-3 col-lg-2 mb-3 mb-lg-5"><img className="rounded" src="assets/images/tech-icons/graphql.png" alt="Graphql" width="56px" height="56px"/></div>
+                    <div className="icon-item col-4 col-md-3 col-lg-2 mb-3 mb-lg-5"><img className="rounded" src="assets/images/tech-icons/java.webp" alt="Java" width="56px" height="56px"/></div>
+                    <div className="icon-item col-4 col-md-3 col-lg-2 mb-3 mb-lg-5"><img className="rounded" src="assets/images/tech-icons/graphql.webp" alt="Graphql" width="56px" height="56px"/></div>
                     
-                    <div className="icon-item col-4 col-md-3 col-lg-2 mb-3 mb-lg-5"><img className="rounded" src="assets/images/tech-icons/mysql.png" alt="MySQL" width="56px" height="56px"/></div>
+                    <div className="icon-item col-4 col-md-3 col-lg-2 mb-3 mb-lg-5"><img className="rounded" src="assets/images/tech-icons/mysql.webp" alt="MySQL" width="56px" height="56px"/></div>
                     <div className="icon-item col-4 col-md-3 col-lg-2 mb-3 mb-lg-5"><img className="rounded" src="assets/images/tech-icons/mongodb.svg" alt="MongoDB" width="56px" height="56px"/></div>
                     <div className="icon-item col-4 col-md-3 col-lg-2 mb-3 mb-lg-5"><img className="rounded" src="assets/images/tech-icons/docker.webp" alt="Docker" width="56px" height="56px"/></div>
-                    <div className="icon-item col-4 col-md-3 col-lg-2 mb-3 mb-lg-5"><img className="rounded" src="assets/images/tech-icons/vtex.png" alt="VTEX IO" width="56px" height="56px"/></div>
+                    <div className="icon-item col-4 col-md-3 col-lg-2 mb-3 mb-lg-5"><img className="rounded" src="assets/images/tech-icons/vtex.webp" alt="VTEX IO" width="56px" height="56px"/></div>
                 </div>
                 <div className="section-cta text-center mt-4">
                     <Link className="btn btn-secondary theme-btn-cta" to="/resume">

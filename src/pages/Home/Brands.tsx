@@ -7,16 +7,16 @@ const Brands = () => {
                 <h3 className="mb-4 text-center section-heading">Clients I Worked With</h3>
                         
                 <div className="client-logo-list row d-flex justify-content-center align-items-stretch py-4 gx-2 gx-lg-3">
-                    <div className="logo-item col-4 col-md-3 col-lg-auto mb-3"><div className="logo-holder"><img className="logo-image" src="assets/images/clients/logo2.png" alt="Samsung Pe"/></div></div>
-                    <div className="logo-item col-4 col-md-3 col-lg-auto mb-3"><div className="logo-holder"><img className="logo-image" src="assets/images/clients/logo1.png" alt="Bata Pe"/></div></div>
-                    <div className="logo-item col-4 col-md-3 col-lg-auto mb-3"><div className="logo-holder"><img className="logo-image" src="assets/images/clients/logo3.svg" alt="Brandlive Co"/></div></div>
-                    <div className="logo-item col-4 col-md-3 col-lg-auto mb-3"><div className="logo-holder"><img className="logo-image" src="assets/images/clients/logo4.png" alt="Sideas"/></div></div>
-                    <div className="logo-item col-4 col-md-3 col-lg-auto mb-3"><div className="logo-holder"><img className="logo-image" src="assets/images/clients/logo10.png" alt="Ecomsultores"/></div></div>
-                    <div className="logo-item col-4 col-md-3 col-lg-auto mb-3"><div className="logo-holder"><img className="logo-image" src="assets/images/clients/logo9.png" alt="Devgroup"/></div></div>
-                    <div className="logo-item col-4 col-md-3 col-lg-auto mb-3"><div className="logo-holder"><img className="logo-image" src="assets/images/clients/logo5.png" alt="Gran Panda"/></div></div>
-                    <div className="logo-item col-4 col-md-3 col-lg-auto mb-3"><div className="logo-holder"><img className="logo-image" src="assets/images/clients/logo6.png" alt="Audiomusica Pe"/></div></div>
-                    <div className="logo-item col-4 col-md-3 col-lg-auto mb-3"><div className="logo-holder"><img className="logo-image" src="assets/images/clients/logo7.webp" alt="eHommer"/></div></div>
-                    <div className="logo-item col-4 col-md-3 col-lg-auto mb-3"><div className="logo-holder"><img className="logo-image" src="assets/images/clients/logo8.png" alt="Tribu"/></div></div>
+                    <div className="logo-item col-4 col-md-3 col-lg-auto mb-3"><div className="logo-holder"><img className="logo-image" src="assets/images/clients/logo2.webp" width="80px" height="40px" alt="Samsung Pe"/></div></div>
+                    <div className="logo-item col-4 col-md-3 col-lg-auto mb-3"><div className="logo-holder"><img className="logo-image" src="assets/images/clients/logo1.webp" width="80px" height="40px" alt="Bata Pe"/></div></div>
+                    <div className="logo-item col-4 col-md-3 col-lg-auto mb-3"><div className="logo-holder"><img className="logo-image" src="assets/images/clients/logo3.svg" width="76px" height="40px" alt="Brandlive Co"/></div></div>
+                    <div className="logo-item col-4 col-md-3 col-lg-auto mb-3"><div className="logo-holder"><img className="logo-image" src="assets/images/clients/logo4.webp" width="40px" height="40px" alt="Sideas"/></div></div>
+                    <div className="logo-item col-4 col-md-3 col-lg-auto mb-3"><div className="logo-holder"><img className="logo-image" src="assets/images/clients/logo10.webp" width="80px" height="40px" alt="Ecomsultores"/></div></div>
+                    <div className="logo-item col-4 col-md-3 col-lg-auto mb-3"><div className="logo-holder"><img className="logo-image" src="assets/images/clients/logo9.webp" width="80px" height="40px" alt="Devgroup"/></div></div>
+                    <div className="logo-item col-4 col-md-3 col-lg-auto mb-3"><div className="logo-holder"><img className="logo-image" src="assets/images/clients/logo5.webp" width="80px" height="40px" alt="Gran Panda"/></div></div>
+                    <div className="logo-item col-4 col-md-3 col-lg-auto mb-3"><div className="logo-holder"><img className="logo-image" src="assets/images/clients/logo6.webp" width="80px" height="48px" alt="Audiomusica Pe"/></div></div>
+                    <div className="logo-item col-4 col-md-3 col-lg-auto mb-3"><div className="logo-holder"><img className="logo-image" src="assets/images/clients/logo7.webp" width="80px" height="48px" alt="eHommer"/></div></div>
+                    <div className="logo-item col-4 col-md-3 col-lg-auto mb-3"><div className="logo-holder"><img className="logo-image" src="assets/images/clients/logo8.webp" width="80px" height="48px" alt="Tribu"/></div></div>
                 </div>
                         
                 <div className="section-cta text-center mt-5">

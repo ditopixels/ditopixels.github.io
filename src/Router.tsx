@@ -1,32 +1,28 @@
-import { FC, lazy } from "react";
-import { 
-    HashRouter,
-    Routes,
-    Route
-} from "react-router-dom";
+import { FC, lazy } from 'react'
+import { HashRouter, Route, Routes } from 'react-router-dom'
 
-import Navbar from "./components/Navbar";
-import ContactButton from "./components/ContactButton";
-import Loadable from "./components/Loadeable/Loadable";
+import ContactButton from './components/ContactButton'
+import Loadable from './components/Loadeable/Loadable'
+import Navbar from './components/Navbar'
 
-const Home = Loadable(lazy(() => import('./pages/Home')));
-const Projects = Loadable(lazy(() => import('./pages/Projects')));
-const Resume = Loadable(lazy(() => import('./pages/Resume')));
-const Contact = Loadable(lazy(() => import('./pages/Contact')));
+const Home = Loadable(lazy(async () => await import('./pages/Home')))
+const Projects = Loadable(lazy(async () => await import('./pages/Projects')))
+const Resume = Loadable(lazy(async () => await import('./pages/Resume')))
+const Contact = Loadable(lazy(async () => await import('./pages/Contact')))
 
-const Router:FC = () => {
-    return (
-        <HashRouter>
-            <Navbar/>
-            <ContactButton/>
-            <Routes>
-                <Route path="/" element={<Home/>} />
-                <Route path="/projects" element={<Projects/>} />
-                <Route path="/resume" element={<Resume/>} />
-                <Route path="/contact" element={<Contact/>} />
-            </Routes>
-        </HashRouter>
-    )
+const Router: FC = () => {
+  return (
+    <HashRouter>
+      <Navbar />
+      <ContactButton />
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/projects' element={<Projects />} />
+        <Route path='/resume' element={<Resume />} />
+        <Route path='/contact' element={<Contact />} />
+      </Routes>
+    </HashRouter>
+  )
 }
 
 export default Router

@@ -8,7 +8,7 @@ const Profile = () => {
                     <img className="profile-pic rounded-circle" src="assets/images/profile.webp" alt="image"/>
                 </div>
                 <div className="intro-holder">
-                    <h2 className="intro-name text-center mb-3">Juan Diego Morales</h2>
+                    <h2 className="intro-name text-center mb-3">Maximiliano Restrepo Bedoya</h2>
                     <div className="profile-intro text-md-center limit-max-width mx-auto">
                         <p>Hi! I'm a Full Stack Developer with 2+ years of experience in eCommerce, CMS, Node services, system implementation, optimization and more. I specialize in providing high-value solutions to companies, and have strong communication, leadership and problem-solving skills. Welcome to my online portfolio! Check out my <Link to="/projects">latest projects</Link>.</p>   
                     </div>

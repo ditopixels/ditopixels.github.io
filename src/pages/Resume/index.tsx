@@ -5,23 +5,23 @@ const Resume = () => {
                 <div className="resume-profile-holder text-center">
                     <img className="resume-profile-pic rounded-circle" src="assets/images/profile.webp" alt="image"/>
                     
-                    <h2 className="resume-name text-uppercase">Juan Diego Morales</h2>
-                    <div className="resume-role-title text-uppercase">Full stack JS | VTEX IO</div>
+                    <h2 className="resume-name text-uppercase">Maximiliano Restrepo Bedoya</h2>
+                    <div className="resume-role-title text-uppercase">Full stack developer | VTEX IO</div>
                     <div className="resume-contact mt-4">
                         <ul className="resume-contact-list list-unstyled list-inline mb-0 justify-content-between">
                             <li className="list-inline-item me-md-3 me-lg-5">
-                                <a href="tel:573246215603">
-                                    <i className="resume-contact-icon bi bi-telephone-inbound me-2"></i> +57 324 6215603
+                                <a href="tel:573003064781">
+                                    <i className="resume-contact-icon bi bi-telephone-inbound me-2"></i> +57 300 3064781
                                 </a>
                             </li>
                             <li className="list-inline-item me-lg-5">
-                                <a href="https://www.linkedin.com/in/juan-diego-durango-morales/" target="_blank">
+                                <a href="https://www.linkedin.com/in/maximiliano-restrepo/" target="_blank">
                                     <i className="resume-contact-icon bi bi-linkedin me-2"></i> Linkedin
                                 </a>
                             </li>
                             <li className="list-inline-item me-md-3 me-lg-5">
-                                <a href="mailto:juandiego90123@gmail.com">
-                                    <i className="resume-contact-icon bi bi-envelope me-2"></i> juandiego90123@gmail.com
+                                <a href="mailto:maximitianoreste@gmail.com">
+                                    <i className="resume-contact-icon bi bi-envelope me-2"></i> maximitianoreste@gmail.com
                                 </a>
                             </li>
                         </ul>
@@ -86,8 +86,8 @@ const Resume = () => {
                                     <div className="resume-timeline-item-header mb-2">
                                         
                                         <div className="resume-position-meta d-flex justify-content-between mb-1">
-                                            <div className="resume-position-time">June 2022 - August 2022 / November 2022 - February 2023</div>
-                                            <div className="resume-company-name">Sideas</div>
+                                            <div className="resume-position-time">May 2023 - Mar 2024</div>
+                                            <div className="resume-company-name">GranPanda PE</div>
                                         </div>
                                         <h3 className="resume-position-title mb-1">Full Stack Developer</h3>
                                     </div>
@@ -115,7 +115,6 @@ const Resume = () => {
                                 <li className="list-inline-item"><span className="badge resume-skill-badge">JavaScript</span></li>
                                 <li className="list-inline-item"><span className="badge resume-skill-badge">Java</span></li>
                                 <li className="list-inline-item"><span className="badge resume-skill-badge">ReactJS</span></li>
-                                <li className="list-inline-item"><span className="badge resume-skill-badge">Angular</span></li>
                                 <li className="list-inline-item"><span className="badge resume-skill-badge">Typescript</span></li>
                                 <li className="list-inline-item"><span className="badge resume-skill-badge">NodeJS</span></li>
                                 <li className="list-inline-item"><span className="badge resume-skill-badge">GraphQL</span></li>
@@ -146,11 +145,7 @@ const Resume = () => {
                         <section className="resume-educate-section resume-section">
                             <h3 className="resume-section-heading text-uppercase py-2 py-lg-3 py-3"><i className="resume-section-heading-icon bi bi-book me-2"></i>Education</h3>
                             <ul className="list-unstyled">
-                                <li className="mb-2">
-                                    <div className="resume-degree font-weight-bold">FIRST Robotics Competition</div>
-                                    <div className="resume-degree-org">The Columbus School</div>
-                                    <div className="resume-degree-time">2018 - 2021</div>
-                                </li>
+
                                 <li className="mb-2">
                                     <div className="resume-degree font-weight-bold">Software Development Technician</div>
                                     <div className="resume-degree-org">Universidad Pascual Bravo</div>
@@ -167,14 +162,14 @@ const Resume = () => {
                                     <div className="resume-degree-time">2021</div>
                                 </li>
                                 <li className="mb-2">
-                                    <div className="resume-degree font-weight-bold">Software engineering</div>
-                                    <div className="resume-degree-org">Universidad Pascual Bravo</div>
-                                    <div className="resume-degree-time">2022 - 2027</div>
+                                    <div className="resume-degree font-weight-bold">Software Development and Entrepreneurship</div>
+                                    <div className="resume-degree-org">Oracle One</div>
+                                    <div className="resume-degree-time">2023</div>
                                 </li>
                                 <li>
                                     <div className="resume-degree font-weight-bold">English</div>
-                                    <div className="resume-degree-org">LCN Idiomas</div>
-                                    <div className="resume-degree-time">2023 (Currently)</div>
+                                    <div className="resume-degree-org">Slang</div>
+                                    <div className="resume-degree-time">2020 (Currently)</div>
                                 </li>
                             </ul>
                         </section>
@@ -188,7 +183,7 @@ const Resume = () => {
                                     <div className="resume-lang-name">Spanish (Native)</div>
                                 </li>
                                 <li className="mb-2">
-                                    <div className="resume-lang-name">English basic</div>
+                                    <div className="resume-lang-name">English (B1)</div>
                                 </li>
                             </ul>
                         </section>

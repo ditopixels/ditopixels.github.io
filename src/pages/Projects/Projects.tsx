@@ -8,7 +8,7 @@ const PROJECTS = [
     },
     {
         name: "Samsung",
-        description: "<ul><li>Analysis, development and deployment of backend for CMS and promotional landings</li><li>Creation of promotional landings</li><li>Analysis, development and deployment of CMS for dynamic and editable landings with authentication system, roles, user creation, schemas and more</li><li>Support to Angular CMS</li></ul>"
+        description: "<ul><li>Analysis, development and deployment of backend for CMS and promotional landings</li><li>Creation of promotional landings</li><li>Analysis, development and deployment of CMS for dynamic and editable landings with authentication system, roles, user creation, schemas and more</li></ul>"
     },
     {
         name: "Mercury",

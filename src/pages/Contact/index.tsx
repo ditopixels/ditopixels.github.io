@@ -17,9 +17,9 @@ const Contact = () => {
         
         <ul className="social-list list-inline mx-auto d-block d-lg-none py-3 text-center">
 
-          <li className="list-inline-item me-1 me-lg-2"><a target="_blank" href="https://github.com/ditopixels"><i className="fa-brands fa-github fa-fw"></i></a></li>
-          <li className="list-inline-item me-1 me-lg-2"><a target="_blank" href="https://www.linkedin.com/in/juan-diego-durango-morales/"><i className="fa-brands fa-linkedin-in fa-fw"></i></a></li>
-          <li className="list-inline-item me-1 me-lg-2"><a target="_blank" download="Juan Diego Morales - Curriculum.pdf" href="/curriculum.pdf"><i className="fa-solid fa-file fa-fw"></i></a></li>
+          <li className="list-inline-item me-1 me-lg-2"><a target="_blank" href="https://github.com/MaxC0d3"><i className="fa-brands fa-github fa-fw"></i></a></li>
+          <li className="list-inline-item me-1 me-lg-2"><a target="_blank" href="https://www.linkedin.com/in/maximiliano-restrepo/"><i className="fa-brands fa-linkedin-in fa-fw"></i></a></li>
+          <li className="list-inline-item me-1 me-lg-2"><a target="_blank" download="Maximiliano Restrepo - Curriculum.pdf" href="/curriculum.pdf"><i className="fa-solid fa-file fa-fw"></i></a></li>
         </ul>
         
       </div>
@@ -29,9 +29,9 @@ const Contact = () => {
           <ul className="list-inline">
               <li className="list-inline-item">
                 <span className="badge btns-contact">
-                  <a className="btn btn-secondary top-bar-cta" href="tel:573246215603">Call me</a>
-                  <a className="btn btn-secondary top-bar-cta" href="mailto:juandiego90123@gmail.com">Email</a>
-                  <a className="btn btn-secondary top-bar-cta" href="https://api.whatsapp.com/send?phone=573246215603" target="_blank">Whatsapp</a>
+                  <a className="btn btn-secondary top-bar-cta" href="tel:573003064781">Call me</a>
+                  <a className="btn btn-secondary top-bar-cta" href="mailto:maximitianoreste@gmail.com">Email</a>
+                  <a className="btn btn-secondary top-bar-cta" href="https://api.whatsapp.com/send?phone=573003064781" target="_blank">Whatsapp</a>
                 </span>
               </li>                       
           </ul>      

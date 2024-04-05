@@ -13,7 +13,6 @@ const Skills = () => {
                     <div className="icon-item col-4 col-md-3 col-lg-2 mb-3 mb-lg-5"><img className="rounded" src="assets/images/tech-icons/nodejs.svg" alt="Nodejs" width="56px" height="56px"/></div>
                     <div className="icon-item col-4 col-md-3 col-lg-2 mb-3 mb-lg-5"><img className="rounded" src="assets/images/tech-icons/typescript.svg" alt="Typescript" width="56px" height="56px"/></div>
                     <div className="icon-item col-4 col-md-3 col-lg-2 mb-3 mb-lg-5"><img className="rounded" src="assets/images/tech-icons/react.svg" alt="React" width="56px" height="56px"/></div>
-                    <div className="icon-item col-4 col-md-3 col-lg-2 mb-3 mb-lg-5"><img className="rounded" src="assets/images/tech-icons/angular.svg" alt="Angular" width="56px" height="56px"/></div>
                     <div className="icon-item col-4 col-md-3 col-lg-2 mb-3 mb-lg-5"><img className="rounded" src="assets/images/tech-icons/scss.webp" alt="Scss" width="56px" height="56px"/></div>
                     <div className="icon-item col-4 col-md-3 col-lg-2 mb-3 mb-lg-5"><img className="rounded" src="assets/images/tech-icons/bootstrap5.svg" alt="Bootstrap" width="56px" height="56px"/></div>
 
